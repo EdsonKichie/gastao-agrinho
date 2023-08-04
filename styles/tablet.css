@@ -1,0 +1,10 @@
+/* Responsivos */
+@media (max-width: 768px) {
+
+    
+    
+    
+    .conteudo {
+        flex-direction: column;
+    }
+}
