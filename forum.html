@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EducaFuturo</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/destop.css">
+    <link rel="stylesheet" href="./styles/menu.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/tablet.css">
+    <link rel="stylesheet" href="./styles/tv.css">
 </head>
 <body>
     <header class="header">
@@ -21,9 +26,37 @@
             </ul>
         </nav>
     </header>
-   <section class="conteudo">
 
+    <div class="titulo">Fórum de Discussão</div>
+    <div class="subtitulo">Espaço onde estudantes possam interagir, fazendo perguntas, deixando ideias, pedindo auxílio, ajudando os outros</div>
+
+<br>
+<br>
+
+   <section class="conteudo">
+        <div>
+          <img class="imgpost" src="img/forum.png" alt="Fórum de Discussão">
+        </div>
+        
+        <div>
+            <form name="form">
+                <h1>Entre em contato</h1>
+                <input type="text" id="nomeid" placeholder="Fulano da Silva" required="required" name="nome" />
+                <label for="nome">Nome</label>
+              
+                <input type="tel" id="foneid" placeholder="(xx)xxxxx-xxxx" name="fone" />
+                <label for="fone">Fone</label>
+              
+                <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
+                <label for="email">Email</label>
+              
+                <textarea placeholder="Deixe sua dúvida, sugestão ou crítica"></textarea>
+              
+                <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+              </form>
+        </div>
    </section>
+   
 
 
 
