@@ -1,8 +1,8 @@
 
 
 :root{
-    --fundo-escuro: rgb(4, 0, 255);
-    --fundo-claro: rgb(102, 99, 255);
+    --fundo-escuro: #2eaeb5;
+    --fundo-claro: #5cd3d9;
     --fonte-clara: rgb(255, 255, 255);
     --fonte-escura: rgb(255, 255, 255);
     --hover-claro: rgb(99, 144, 186);
@@ -15,7 +15,7 @@ ul{
     list-style-type: none;
 }
 .header{
-    background-color: var(--fundo-escuro);
+    background-image: linear-gradient( to top, #008990, #179ca2, #2eaeb5, #179ca2, #008990 );
     width: 100vw;
     position: sticky;
     top: 0;
@@ -50,6 +50,13 @@ ul{
 .menu a:hover{
     background-color: var(--hover-claro);
 }
+
+
+#home {
+    margin-right: 45vh;
+}
+
+
 .nav{
     max-height: 0;
     transition: max-height .1s ease-out;

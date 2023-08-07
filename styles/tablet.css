@@ -1,10 +1,31 @@
 /* Responsivos */
 @media (max-width: 768px) {
 
-    
-    
-    
+
     .conteudo {
         flex-direction: column;
+        font-size: 20px;
     }
+    .imgpost {
+        height: 25vh;
+        width: 35vh;
+    }
+    .conteudo-menu {
+        font-size: 20px;
+    }
+    .rodape {
+        font-size: 15px;
+    }
+    .titulo {
+        font-size: 30px;
+        text-align: center;
+    }
+    .subtitulo{
+        font-size: 25px;
+        font-style: italic;
+        text-align: center;
+    }
+    #logo{
+        height: 15vh;
+      }
 }

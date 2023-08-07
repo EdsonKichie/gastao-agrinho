@@ -52,12 +52,12 @@ input, textarea {
 input:hover, textarea:hover, input:focus, textarea:focus {
     border-color: var(--fundo-claro);
     box-shadow: 5px 0px 9px var(--fundo-escuro);
-    background-color: #66FFFF;
+    background-color: var(--fundo-claro);
     color: black;
     font-weight: bold;
 }
 .enviar {
-    background-color: #66FFFF;
+    background-color: var(--fundo-claro);
     height: 40px;
     width: 100px;
     font-weight: bold;
