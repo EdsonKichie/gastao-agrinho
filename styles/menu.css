@@ -40,6 +40,7 @@ ul{
     transform: 2ms ease-in;
     position: relative;
     padding-bottom: 5px;
+    
 }
 
 
@@ -89,7 +90,8 @@ ul{
     display: block;
     padding: 40px;
     color: var(--fonte-clara);
-    font-size: 22px;
+    font-size: 20px;
+    margin-top: 40px;
 }
 .menu a:hover{
     background-color: var(--hover-claro);
