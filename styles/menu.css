@@ -16,23 +16,67 @@ ul{
 }
 .header{
     background-image: linear-gradient( to top, #008990, #179ca2, #2eaeb5, #179ca2, #008990 );
-    width: 100vw;
+    width: 100%;
     position: sticky;
     top: 0;
     margin-bottom: 15px;
+    text-transform: uppercase;
+    border-radius: 20px;
 }
+
+
+
+
+.header .menu {
+    list-style: none;
+    gap: 15px;
+
+}
+
+.header .menu a {
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+
+.header .menu a:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: rgb(251, 255, 0);
+    transition: all 1.5s ease; 
+}
+
+.header .menu a:hover:before {
+    width: 100%;
+}
+
+
+
+
+
+
 .logo{
    display: inline-block;
    color: var(--fundo-escuro);
    font-size: 32px;
    position: relative;
    left: 12%;
+   border-radius: 15px;
 }
 #logo{
   height: 20vh;
   padding: 5px 5px;
   border:8px inset var(--fundo-claro);
   padding:0px;
+  border-radius: 15px;
 }
 .nav{
     width: 100%;
@@ -45,7 +89,7 @@ ul{
     display: block;
     padding: 40px;
     color: var(--fonte-clara);
-    font-size: 25px;
+    font-size: 22px;
 }
 .menu a:hover{
     background-color: var(--hover-claro);
@@ -65,6 +109,7 @@ ul{
     cursor: pointer;
     float: right;
     padding: 35px 20px;
+    
 }
 .hamb-line{
     background: var(--fonte-clara);
@@ -72,6 +117,7 @@ ul{
     height: 2px;
     position: relative;
     width: 24px;
+    
 
 }
 .hamb-line::before,
@@ -107,8 +153,8 @@ ul{
 .side-menu:checked ~ .hamb .hamb-line::after{
     transform: rotate(+45deg);
     top: 0;
+    
 }
-
 
 
 .conteudo-menu {
@@ -116,8 +162,68 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 25px;
+    justify-content: center;
 }
+
+
+
+
+
+
+
+
+
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.btns button {
+    width: 310px;
+    height: 100px;
+    cursor: pointer;
+    border: 1px solid var(--fundo-escuro);
+    color: var(--fundo-escuro);
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 20px;
+    position: relative;
+    transition: 1.5s;
+}
+
+.btns button:hover {
+    color: rgb(251, 255, 0);
+    border: none;
+}
+
+.btns button:before {
+    content: ' ';
+    border-radius: 20px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+    height: 100px;
+    background-color: var(--fundo-claro);;
+    z-index: -1;
+    transition: 1s;
+}
+
+.btns button:hover:before {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
 
 
 .rodape {

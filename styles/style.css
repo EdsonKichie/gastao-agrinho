@@ -13,6 +13,8 @@
     font-size: 25px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .imgpost {
     height: 45vh;
@@ -21,6 +23,7 @@
     border:8px inset var(--fundo-claro);
     padding:0px;
     margin: 5px;
+    border-radius: 15px;
 }
 .post {
     margin: auto;
@@ -34,7 +37,9 @@ p {
 
 
 
-
+.form {
+    margin-left: 10%;
+}
 form {
     max-width: 500px;
 }
@@ -50,9 +55,9 @@ input, textarea {
     cursor: pointer;
 }
 input:hover, textarea:hover, input:focus, textarea:focus {
-    border-color: var(--fundo-claro);
+    border-color: black;
     box-shadow: 5px 0px 9px var(--fundo-escuro);
-    background-color: var(--fundo-claro);
+    background-color: #99edf1;
     color: black;
     font-weight: bold;
 }
@@ -75,7 +80,7 @@ textarea {
 }
 form label {
     margin-left: 20px;
-    color: #FFFFFF;
+    color: black;
     font-weight: bold;
 }
 

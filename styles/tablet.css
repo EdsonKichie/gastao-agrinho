@@ -28,4 +28,32 @@
     #logo{
         height: 15vh;
       }
+    .btns button {
+        width: 150px;
+        height: 80px;
+    }
+    .btns button:before {
+        height: 80px;
+    }
+    
+    .form{
+        margin: 0;
+    }
+    form {
+        max-width: 300px;
+    }
+    input, textarea {
+        width: 250px;
+    }
+    textarea {
+        width: 250px;
+        height: 250px;
+        line-height: 20px;
+        max-width: 250px;
+    }
+    form label {
+        margin-left: 20px;
+        color: black;
+        font-weight: bold;
+    }
 }
