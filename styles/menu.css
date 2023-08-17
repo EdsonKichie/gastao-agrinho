@@ -1,5 +1,4 @@
 
-
 :root{
     --fundo-escuro: #2eaeb5;
     --fundo-claro: #5cd3d9;
@@ -22,16 +21,10 @@ ul{
     margin-bottom: 15px;
     text-transform: uppercase;
 }
-
-
-
-
 .header .menu {
     list-style: none;
     gap: 15px;
-
 }
-
 .header .menu a {
     text-decoration: none;
     color: white;
@@ -107,8 +100,6 @@ ul{
     height: 4px;
     position: relative;
     width: 32px;
-    
-
 }
 .hamb-line::before,
 .hamb-line::after{
@@ -121,10 +112,10 @@ ul{
     width: 100%;
 }
 .hamb-line::before{
-    top: 5px;
+    top: 10px;
 }
 .hamb-line::after{
-    top: -5px;
+    top: -10px;
 }
 .side-menu{
     display: none;
