@@ -34,7 +34,6 @@ ul{
     padding-bottom: 5px;
 }
 
-
 .header .menu a:before {
     content: ' ';
     position: absolute;
@@ -80,7 +79,6 @@ ul{
 .menu a:hover{
     background-color: var(--hover-claro);
 }
-
 
 #home {
     margin-right: 45vh;
@@ -136,7 +134,6 @@ ul{
     top: 0;
     
 }
-
 
 .conteudo-menu {
     font-size: 25px;
