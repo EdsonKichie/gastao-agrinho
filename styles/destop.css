@@ -1,7 +1,5 @@
 /* Responsivos */
-@media (min-width: 1024px) {
-    
-    
+@media (min-width: 1024px) {   
     .nav{
         max-height: none;
         top: 0;

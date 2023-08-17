@@ -16,12 +16,11 @@ ul{
 }
 .header{
     background-image: linear-gradient( to top, #008990, #179ca2, #2eaeb5, #179ca2, #008990 );
-    width: 100%;
+    width: calc(100vw - 1px);
     position: sticky;
     top: 0;
     margin-bottom: 15px;
     text-transform: uppercase;
-    border-radius: 20px;
 }
 
 
@@ -40,7 +39,6 @@ ul{
     transform: 2ms ease-in;
     position: relative;
     padding-bottom: 5px;
-    
 }
 
 
@@ -58,22 +56,15 @@ ul{
 .header .menu a:hover:before {
     width: 100%;
 }
-
-
-
-
-
-
 .logo{
    display: inline-block;
    color: var(--fundo-escuro);
-   font-size: 32px;
    position: relative;
    left: 12%;
-   border-radius: 15px;
 }
 #logo{
-  height: 20vh;
+  height: 10vw;
+  width: 10vw;
   padding: 5px 5px;
   border:8px inset var(--fundo-claro);
   padding:0px;
@@ -101,8 +92,6 @@ ul{
 #home {
     margin-right: 45vh;
 }
-
-
 .nav{
     max-height: 0;
     transition: max-height .1s ease-out;
@@ -110,15 +99,14 @@ ul{
 .hamb{
     cursor: pointer;
     float: right;
-    padding: 35px 20px;
-    
+    padding: 6vw  5vw;
 }
 .hamb-line{
     background: var(--fonte-clara);
     display: block;
-    height: 2px;
+    height: 4px;
     position: relative;
-    width: 24px;
+    width: 32px;
     
 
 }
