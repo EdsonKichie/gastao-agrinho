@@ -52,13 +52,13 @@ ul{
    display: inline-block;
    color: var(--fundo-escuro);
    position: relative;
-   left: 12%;
+   left: 5vw;
 }
 #logo{
   height: 10vw;
   width: 10vw;
   padding: 5px 5px;
-  border:8px inset var(--fundo-claro);
+  border: .5vw inset var(--fundo-claro);
   padding:0px;
   border-radius: 15px;
 }
@@ -194,16 +194,6 @@ ul{
     width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
 .rodape {
     position: absolute;
     bottom: auto;
@@ -214,4 +204,55 @@ ul{
     text-align: center;
     line-height: 50px;
     margin-top: 50px;
+}
+
+.conteudo {
+    flex-direction: column;
+    font-size: 20px;
+}
+.imgpost {
+    height: 25vh;
+    width: 35vh;
+}
+.conteudo-menu {
+    font-size: 20px;
+}
+.rodape {
+    font-size: 15px;
+}
+.titulo {
+    font-size: 30px;
+    text-align: center;
+}
+.subtitulo{
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
+.btns button {
+    width: 150px;
+    height: 80px;
+}
+.btns button:before {
+    height: 80px;
+}
+.form{
+    margin: 0;
+}
+form {
+    max-width: 300px;
+}
+input, textarea {
+    width: 250px;
+}
+textarea {
+    width: 250px;
+    height: 250px;
+    line-height: 20px;
+    max-width: 250px;
+}
+form label {
+    margin-left: 20px;
+    color: black;
+    font-weight: bold;
 }
