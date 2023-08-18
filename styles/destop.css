@@ -1,24 +1,7 @@
 /* Responsivos */
-@media (min-width: 1224px) {   
-    .nav{
-        max-height: none;
-        top: 0;
-        position: relative;
-        float: right;
-        width: fit-content;
-        background-color: transparent;
-    }
-    .menu li{
-        float: left;
-    }
-    .menu a:hover{
-        background-color: transparent;
-        color: var(--gray);
-
-    }
-
-    .hamb{
-        display: none;
+@media (min-width: 1024px) {   
+    .header .menu a {
+        padding: 2rem;
     }
 
 }

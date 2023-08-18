@@ -1,5 +1,5 @@
 /* Responsivos */
-@media (min-width: 1028px) {
+@media (min-width: 820px) {
     .nav{
         max-height: none;
         top: 0;
@@ -10,6 +10,9 @@
     }
     .menu li{
         float: left;
+    }
+    .header .menu a {
+        padding: .4rem;
     }
     .menu a:hover{
         background-color: transparent;
